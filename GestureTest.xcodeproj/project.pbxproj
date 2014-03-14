@@ -19,6 +19,13 @@
 		947DAEA418CE3D9300BC7A37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947DAE8C18CE3D9300BC7A37 /* UIKit.framework */; };
 		947DAEAC18CE3D9300BC7A37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 947DAEAA18CE3D9300BC7A37 /* InfoPlist.strings */; };
 		947DAEAE18CE3D9300BC7A37 /* GestureTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DAEAD18CE3D9300BC7A37 /* GestureTestTests.m */; };
+		947DAEBA18CE3DCD00BC7A37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DAEB818CE3DCD00BC7A37 /* ViewController.m */; };
+		947DAEBB18CE3DCD00BC7A37 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 947DAEB918CE3DCD00BC7A37 /* ViewController.xib */; };
+		947DAEBE18CE3EC500BC7A37 /* ViewImagem.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DAEBD18CE3EC500BC7A37 /* ViewImagem.m */; };
+		947DAEC118CE51C900BC7A37 /* SlideDirEsq.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DAEC018CE51C900BC7A37 /* SlideDirEsq.m */; };
+		947DAEC418CE5A9F00BC7A37 /* SlideDownUpMid.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DAEC318CE5A9F00BC7A37 /* SlideDownUpMid.m */; };
+		9482123E18D0F251005E4FD7 /* SlideUpDonwMid.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482123D18D0F251005E4FD7 /* SlideUpDonwMid.m */; };
+		9482124118D0F271005E4FD7 /* SlideEsqDir.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482124018D0F271005E4FD7 /* SlideEsqDir.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,19 @@
 		947DAEA918CE3D9300BC7A37 /* GestureTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureTestTests-Info.plist"; sourceTree = "<group>"; };
 		947DAEAB18CE3D9300BC7A37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		947DAEAD18CE3D9300BC7A37 /* GestureTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureTestTests.m; sourceTree = "<group>"; };
+		947DAEB718CE3DCD00BC7A37 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		947DAEB818CE3DCD00BC7A37 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		947DAEB918CE3DCD00BC7A37 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		947DAEBC18CE3EC500BC7A37 /* ViewImagem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewImagem.h; sourceTree = "<group>"; };
+		947DAEBD18CE3EC500BC7A37 /* ViewImagem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewImagem.m; sourceTree = "<group>"; };
+		947DAEBF18CE51C900BC7A37 /* SlideDirEsq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideDirEsq.h; sourceTree = "<group>"; };
+		947DAEC018CE51C900BC7A37 /* SlideDirEsq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideDirEsq.m; sourceTree = "<group>"; };
+		947DAEC218CE5A9F00BC7A37 /* SlideDownUpMid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideDownUpMid.h; sourceTree = "<group>"; };
+		947DAEC318CE5A9F00BC7A37 /* SlideDownUpMid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideDownUpMid.m; sourceTree = "<group>"; };
+		9482123C18D0F251005E4FD7 /* SlideUpDonwMid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideUpDonwMid.h; sourceTree = "<group>"; };
+		9482123D18D0F251005E4FD7 /* SlideUpDonwMid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideUpDonwMid.m; sourceTree = "<group>"; };
+		9482123F18D0F271005E4FD7 /* SlideEsqDir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideEsqDir.h; sourceTree = "<group>"; };
+		9482124018D0F271005E4FD7 /* SlideEsqDir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideEsqDir.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +129,19 @@
 			children = (
 				947DAE9718CE3D9300BC7A37 /* AppDelegate.h */,
 				947DAE9818CE3D9300BC7A37 /* AppDelegate.m */,
+				947DAEB718CE3DCD00BC7A37 /* ViewController.h */,
+				947DAEB818CE3DCD00BC7A37 /* ViewController.m */,
+				947DAEB918CE3DCD00BC7A37 /* ViewController.xib */,
+				947DAEC218CE5A9F00BC7A37 /* SlideDownUpMid.h */,
+				947DAEC318CE5A9F00BC7A37 /* SlideDownUpMid.m */,
+				9482123C18D0F251005E4FD7 /* SlideUpDonwMid.h */,
+				9482123D18D0F251005E4FD7 /* SlideUpDonwMid.m */,
+				9482123F18D0F271005E4FD7 /* SlideEsqDir.h */,
+				9482124018D0F271005E4FD7 /* SlideEsqDir.m */,
+				947DAEBC18CE3EC500BC7A37 /* ViewImagem.h */,
+				947DAEBF18CE51C900BC7A37 /* SlideDirEsq.h */,
+				947DAEC018CE51C900BC7A37 /* SlideDirEsq.m */,
+				947DAEBD18CE3EC500BC7A37 /* ViewImagem.m */,
 				947DAE9A18CE3D9300BC7A37 /* Images.xcassets */,
 				947DAE8F18CE3D9300BC7A37 /* Supporting Files */,
 			);
@@ -220,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				947DAE9318CE3D9300BC7A37 /* InfoPlist.strings in Resources */,
+				947DAEBB18CE3DCD00BC7A37 /* ViewController.xib in Resources */,
 				947DAE9B18CE3D9300BC7A37 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9482123E18D0F251005E4FD7 /* SlideUpDonwMid.m in Sources */,
+				9482124118D0F271005E4FD7 /* SlideEsqDir.m in Sources */,
+				947DAEBA18CE3DCD00BC7A37 /* ViewController.m in Sources */,
 				947DAE9918CE3D9300BC7A37 /* AppDelegate.m in Sources */,
+				947DAEBE18CE3EC500BC7A37 /* ViewImagem.m in Sources */,
+				947DAEC118CE51C900BC7A37 /* SlideDirEsq.m in Sources */,
 				947DAE9518CE3D9300BC7A37 /* main.m in Sources */,
+				947DAEC418CE5A9F00BC7A37 /* SlideDownUpMid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +483,7 @@
 				947DAEB318CE3D9300BC7A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		947DAEB418CE3D9300BC7A37 /* Build configuration list for PBXNativeTarget "GestureTestTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +492,7 @@
 				947DAEB618CE3D9300BC7A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

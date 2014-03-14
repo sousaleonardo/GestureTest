@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewImagem.h
 //  GestureTest
 //
 //  Created by LEONARDO DE SOUSA MENDES on 10/03/14.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ViewImagem : UIView
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic) UIImageView *imagem;
+
+-(void)displayGestureForTap:(id*)sender;
 
 @end

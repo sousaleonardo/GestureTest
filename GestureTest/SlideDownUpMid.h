@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SlideDounUpMid.h
 //  GestureTest
 //
 //  Created by LEONARDO DE SOUSA MENDES on 10/03/14.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
+#import <UIKit/UIGestureRecognizerSubclass.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface SlideDounUpMid : UIGestureRecognizer
+{
+    float ultimaPosicaoY;
+}
 @end
